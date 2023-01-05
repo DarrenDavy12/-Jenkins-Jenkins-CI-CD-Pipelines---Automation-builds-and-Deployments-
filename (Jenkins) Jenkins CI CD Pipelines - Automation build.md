@@ -157,26 +157,19 @@ This command is going log me in to that container, give me an interactive termin
 
 ![Untitled 28](https://user-images.githubusercontent.com/42151912/210249491-0237308b-b70e-47ba-8f9e-b5bab7fb6112.png)
 
-![Untitled 29](https://user-images.githubusercontent.com/42151912/210251049-0b11be5e-27fa-4a76-9672-c84cdb05f2fe.png)
-
 
 Now I run `apt-get update` 
 
-![Untitled 30](https://user-images.githubusercontent.com/42151912/210249530-04454e2c-6468-41bb-9c5d-07c126af8fc5.png)
 
 ![Untitled 31](https://user-images.githubusercontent.com/42151912/210250996-c737c82c-f151-4322-9ee3-35218276cb1c.png)
 
 
 Once done updating, I run `apt-get install maven` and when asked, type `y` to continue.
 
-![Untitled 32](https://user-images.githubusercontent.com/42151912/210250938-9948e171-f0ad-43b5-a71c-3c58f9fad1d3.png)
-
 
 ***Information about Jenkins is persisted, so for whatever reason it goes down, I need to reinstall maven with the command above.*** 
 
 After Maven is installed, I type `exit` in the terminal and close the tab. 
-
-![Untitled 33](https://user-images.githubusercontent.com/42151912/210249598-09755d0e-ad2b-4101-b958-ce23b39adbe6.png)
 
 
 - **Install bracket colourizer for vscode, this will help with placing code in the right places inside the Jenkinsfile.**
