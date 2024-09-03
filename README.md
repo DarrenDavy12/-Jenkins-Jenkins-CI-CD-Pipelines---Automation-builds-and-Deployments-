@@ -3,7 +3,7 @@ This is just notes I took on setting up a CI/CD pipeline using Jenkins.
 
 So for this little project is about building a pipeline on Jenkins which involves continuous integration and continuous delivery/deployment. 
 
-To start off the building process I must first setup Jenkins for the pipeline, so I connect to the Jenkins running off a Docker container using port 8080 which is used by Jenkins. Storing the password for my Jenkins server on my local machine once running he docker run Jenkins on port 8080 command. 
+To start off the building process I must first setup Jenkins for the pipeline, so I connect to the Jenkins running off a Docker container using port 8080 which comes from Jenkins. Storing the password for my Jenkins server on my local machine once running the docker run Jenkins on port 8080 command. 
 
 Entering Jenkins using that authentication password and using suggested plugins. Once filling in the admin credentials I use the URL given and paste it inside another tab on the browser. 
 
