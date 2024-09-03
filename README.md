@@ -21,16 +21,16 @@ I go through the benefits of Jenkins replay feature as well.
 
 I forked over a git repo from the course lecture and headed into the Jenkisnfile and edited the file to just have the tool being used which is maven, with not docker cmds or args. I explain that I don’t need a custom stage to pull down or clone the repo GitHub will already do that for me. After that I commit changes. 
 
-I clone the repo I just edited, head back over to Jenkins and make another pipeline called GitHub pipeline. On the next page I scrolled down to script and in the drop down menu I select script form SCM (source control management). I added the path of where the Jenkinsfile is on the forked repo and then clicked build now. 
+Once I'd cloned the edited repo, I headed back over to Jenkins and to make another pipeline called GitHub pipeline. On the next page I scrolled down to script and in the drop down menu, selected script form SCM (source control management). Added the path of where the Jenkinsfile is on the forked repo and then clicked build now. 
 
 Afterwards I check for any changes and if it detects a change, it will start building the job automatically using polling, I used the crontab guru site and once editing the Jenkinsfile on github again to add deliver stage I commit changes. 
 
-Refreshing tab and waited a couple mins and Jenkins automatically started build another job. 
+Refreshing tab and waited a couple mins for Jenkins to automatically start building another job. 
 
-I also covered steps on making a Muliti-branch pipeline on Jenkins, with Git as the branch source, including the Jenkinsfile script path again. Enabling scan multi-branch pipeline triggers for 2 minutes. 
+Also I covered steps on making a Muliti-branch pipeline on Jenkins, with Git as the branch source, including the Jenkinsfile script path again. Enabling scan multi-branch pipeline triggers for 2 minutes. 
 
 Back on Github on the same forked repo, I clicked on the drop down menu search newpipeline and it was up. I went back to Jenkins and Jenkins automatically started scanning after round 2 minutes has passed.
 
 I did this so making changes to the Jenkinsfile on a new branch makes edits and commits more easier. removed that little complete stage. 
 
-Finally I headed back to Jenkins and clicked on scan multi-branch pipeline and I it started scanning again and once done the stage view showed my latest commit change ‘removed complete stage’ which was the stage I mentioned adding earlier.
+Finally I headed back to Jenkins and clicked on scan multi-branch pipeline and it started scanning again and once done the stage view showed my latest commit change, ‘removed complete stage’ which was the stage I mentioned adding earlier.
